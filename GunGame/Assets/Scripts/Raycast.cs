@@ -12,7 +12,6 @@ public class Raycast : MonoBehaviour
 
     private LootBox LookingAtBox;
     private Collect LookingAtItem;
-
     void Update()
     {
         if (Camera.main == null) return;
@@ -53,9 +52,7 @@ public class Raycast : MonoBehaviour
                         }
                     }
                 }
-            }
-            
-            
+            } 
         }
     }
 }
